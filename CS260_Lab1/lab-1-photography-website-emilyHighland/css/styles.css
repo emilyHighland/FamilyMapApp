@@ -1,0 +1,60 @@
+
+
+/* Menu */
+.bg-dark {
+  background-color: #e3f2fd;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #fffff0;
+  font-family: 'Allura';
+}
+.navbar-brand {
+
+}
+
+* {
+  font-family: sans-serif;
+  display: flex;
+}
+
+/* About */
+.parent {
+  box-sizing: border-box;
+  background-color: red;
+}
+.child1 {
+  box-sizing: border-box;
+  background-color: blue;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
